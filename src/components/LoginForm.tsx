@@ -38,7 +38,7 @@ export function LoginForm() {
   return (
     <div className="min-h-screen flex items-center justify-center bg-gray-100 dark:bg-gray-900">
       <div className="bg-white dark:bg-gray-800 p-8 rounded-lg shadow-md w-full max-w-md">
-        <h2 className="text-2xl font-bold mb-6 text-gray-900 dark:text-white">Login</h2>
+        <h2 className="text-2xl font-bold mb-6 text-gray-900 dark:text-white">Login Form</h2>
         {error && (
           <div className="bg-red-100 border border-red-400 text-red-700 px-4 py-3 rounded mb-4">
             {error.message}
